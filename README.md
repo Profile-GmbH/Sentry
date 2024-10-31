@@ -2,9 +2,14 @@
 
 The **Omnis Library** is designed to provide seamless integration with [Sentry.io](https://sentry.io/), helping you capture and monitor errors, performance issues, and other events in your application with ease. This integration provides a direct link to Sentry, allowing for powerful tracking, error management, and reporting to enhance your application's reliability.
 
+## Documenation
+- **General Sentry Docs:** [Sentry Docs](https://docs.sentry.io/)
+- **Docs about JSON structure:** [JSON structure](https://develop.sentry.dev/sdk/data-model/event-payloads/)
+
 ## Features
 - **Error Tracking:** Capture and log errors in real-time to Sentry.
 - **Customizable Event Data:** Configure the event payload to capture additional context about errors and performance issues.
+- **Fetching Error Data:** Fetches all relevant stackinformation from Omnis
 
 ## How to setup Sentry in any existing Omnis Application:
 
