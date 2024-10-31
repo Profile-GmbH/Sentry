@@ -16,6 +16,6 @@ The **Omnis Library** is designed to provide seamless integration with [Sentry.i
 1. Create a new project in Sentry.io (SDK needs to be set to "Other")
 2. Copy the Objects OSentry and OSentryHL to your library
 3. Create a Task Variable "tSentry" from the type "OSentryHL"
-4. Inititalize your Object in your Startup Task using the Projects DSN; Do tSentry.$init('<DSN>')
+4. Inititalize your Object in your Startup Task using the Projects DSN; Do tSentry.$init('\<DSN\>')
 5. Create a Testcall using "Do tSentry.$captureMessage('Hello World!')"
 6. You should be done!
